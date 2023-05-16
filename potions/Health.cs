@@ -1,7 +1,7 @@
 using App.Common;
 
 namespace App.Potions {
-    public abstract class Health: ItemBase, IUsable {
+    public class Health: ItemBase, IUsable {
         public Health(int value): base("Health", $"This is a {value}hp health potion.") {
             Value = value;
         }
